@@ -11,7 +11,6 @@
   inputs.src-minecraft_server_status-main.ref   = "refs/heads/main";
   inputs.src-minecraft_server_status-main.owner = "GabrielLasso";
   inputs.src-minecraft_server_status-main.repo  = "minecraft_server_status";
-  inputs.src-minecraft_server_status-main.dir   = "";
   inputs.src-minecraft_server_status-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
